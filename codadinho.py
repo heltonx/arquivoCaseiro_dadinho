@@ -14,11 +14,11 @@ os.system("cls")
 
 nome = input("Digite o nome da pessoinha: ")
 
-vetorlaudos = [line.rstrip() for line in open('primeiro.txt')]
-vetorlaudos1 = [line.rstrip() for line in open ('segundo.txt')]
+vetorlaudos1 = [line.rstrip() for line in open('primeiro.txt')]
+vetorlaudos2 = [line.rstrip() for line in open ('segundo.txt')]
 
-xingada1 = random.choice(vetorlaudos)
-xingada2 = random.choice(vetorlaudos1)
+xingada1 = random.choice(vetorlaudos1)
+xingada2 = random.choice(vetorlaudos2)
 
 print (nome + ' eh ' + xingada1  + ' ' + xingada2 )
 
